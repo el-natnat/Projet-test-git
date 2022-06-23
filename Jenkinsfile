@@ -14,8 +14,9 @@ pipeline {
                 dir('C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Documents\\Cormeziant-Sources') {
                 // some block
                 }
-                fileExists 'C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Document\\Cormeziant-Sources\\a.bat'
-                bat 'start cmd.exe /c a.bat'
+                fileExists 'C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Documents\\Cormeziant-Sources\\a.bat'
+                bat 'cd C:/Users/nbreuil/OneDrive - SOCIÉTÉ CORIOLIS/Documents/Cormeziant-Sources/'
+                bat 'a.bat'
             }
         }
         stage('Deploy') {
