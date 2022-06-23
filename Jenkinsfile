@@ -16,6 +16,7 @@ pipeline {
                 }
                 fileExists 'C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Documents\\Cormeziant-Sources\\a.bat'
                 bat 'dir'
+                bat 'a.bat'
             }
         }
         stage('Deploy') {
