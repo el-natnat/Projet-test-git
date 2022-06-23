@@ -13,15 +13,15 @@ pipeline {
                 echo 'Testing branch 2..'
                 dir('C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Documents\\Cormeziant-Sources') {
                     // some block
-                    
+
                 }
-                bat 'set'
+                bat 'start cmd.exe /c kernelTests.bat'
+                }
             }
-        }
         stage('Deploy') {
             steps {
                 echo 'Deploying branch 2'
             }
         }
+        }
     }
-}
