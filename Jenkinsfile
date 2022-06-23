@@ -14,7 +14,7 @@ pipeline {
                 dir('C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Documents\\Cormeziant-Sources') {
                 // some block
                 }
-                fileExists 'C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Document\\Cormeziant-Sources\\kernelTests.bat'
+                fileExists 'C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Document\\Cormeziant-Sources\\kernelTestsa.bat'
                 bat 'start cmd.exe /c kernelTests.bat'
             }
         }
