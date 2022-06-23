@@ -14,7 +14,7 @@ pipeline {
                 dir('C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Documents\\Cormeziant-Sources') {
                 // some block
                 }
-                fileExists 'C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Documents\\Cormeziant-Sources\\a.bat'
+                fileExists 'C:\\Users\\nbreuil\\OneDrive - SOCI\ÉTÉ CORIOLIS\\Documents\\Cormeziant-Sources\\a.bat'
                 bat 'cd C:/Users/nbreuil/OneDrive - SOCIÉTÉ CORIOLIS/Documents/Cormeziant-Sources/'
                 bat 'a.bat'
             }
