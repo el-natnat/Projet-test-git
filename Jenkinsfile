@@ -1,20 +1,24 @@
+/* groovylint-disable CompileStatic */
 pipeline {
     agent any
 
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building branch 2'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Testing branch 2..'
+                dir('C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Documents\\Cormeziant-Sources') {
+                // some block
+                }
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Deploying branch 2'
             }
         }
     }
