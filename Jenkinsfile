@@ -1,7 +1,6 @@
 /* groovylint-disable CompileStatic */
-pipeline { 
+pipeline {
     agent any
-    file.encoding: UTF8
 
     stages {
         stage('Build') {
@@ -18,7 +17,7 @@ pipeline {
                 fileExists 'C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Documents\\Cormeziant-Sources\\a.bat'
                 bat 'dir'
                 bat 'a.bat'
-                bat ' cd C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Documents\\Cormeziant-Sources'
+                bat 'cd C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Documents\\Cormeziant-Sources\\a.bat'
             }
         }
         stage('Deploy') {
