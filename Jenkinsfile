@@ -15,7 +15,7 @@ pipeline {
                 // some block
                 }
                 fileExists 'C:\\Users\\nbreuil\\OneDrive - SOCIÉTÉ CORIOLIS\\Document\\Cormeziant-Sources\\a.bat'
-                bat 'start cmd.exe /c kernelTests.bat'
+                bat 'start cmd.exe /c a.bat'
             }
         }
         stage('Deploy') {
